@@ -1,4 +1,14 @@
-h1{
-  color: #f33;
-  font-size: 50px;
+div{
+  width: 200px;
+  height: 200px;
+
+  background: red !important;
+}
+
+.green{
+  background: green;
+}
+
+#blue{
+  background: blue;
 }
