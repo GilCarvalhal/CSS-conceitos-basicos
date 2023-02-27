@@ -1,12 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {}
+
+#pai {
+  width: 500px;
+  height: 150px;
+
+  background: #ddd;
+  font-size: 15px;
 }
 
-div {
-  width: 300vw;
-  height: 150vh;
-
-  background: #333;
+#filho {
+  font-size: 2em;
 }
