@@ -1,13 +1,15 @@
-* {}
+.red {
+  border: 5px solid #f33;
+  border-radius: 50px;
 
-#pai {
-  width: 500px;
-  height: 150px;
-
-  background: #ddd;
-  font-size: 15px;
+  width: 100px;
+  height: 100px;
 }
 
-#filho {
-  font-size: 2em;
+.gray {
+  border: 2px double #555;
+  border-radius: 10px;
+
+  width: 200px;
+  height: 300px;
 }
