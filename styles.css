@@ -1,13 +1,8 @@
 div {
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
 
-  background: #ddd;
-  overflow: auto;
-  /* overflow-x: scroll; */
-  /* overflow-y: scroll; */
-}
-
-div p {
-  font-size: 1.5em;
+  background: #f33;
+  box-shadow: 10px 10px 20px 7px rgba(0, 0, 0, 0.3);
+  opacity: 0.5;
 }
