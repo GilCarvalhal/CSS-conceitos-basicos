@@ -1,32 +1,28 @@
-form {
-  width: 500px;
-  height: 150px;
-  padding: 2em;
-
-  background: #e2e2e2
+:root {
+  --corTexto: #f33;
+  --fonteTitulo: 3em;
+  --corDiv: #555;
+  --p10: 10px;
+  --m10: 10px;
 }
 
-input {
-  outline: 0;
-  padding: 6px;
+div {
+  width: 250px;
+  height: 250px;
+
+  background: var(--corDiv);
+  margin-top: var(--m10);
 }
 
-input:not([type="email"]) {
-  border: 2px solid #f33;
+p {
+  color: var(--corTexto);
 }
 
-input[type="email"] {
-  border: 2px solid green;
+h1 {
+  color: var(--corTexto);
+  font-size: var(--fonteTitulo);
 }
 
-ul li:first-child {
-  color: green;
-}
-
-ul li:last-child {
-  color: brown;
-}
-
-ul li:nth-child(3) {
-  color: blueviolet;
+.Box-01 {
+  padding: var(--p10);
 }
